@@ -1,0 +1,509 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/101/trunk/gmoteserver/src/org/blinkenlights/jid3/v2
+END
+GEOBID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/GEOBID3V2Frame.java
+END
+TBPMTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/47/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TBPMTextInformationID3V2Frame.java
+END
+PRIVID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/40/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/PRIVID3V2Frame.java
+END
+TOFNTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/66/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TOFNTextInformationID3V2Frame.java
+END
+TOPETextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/68/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TOPETextInformationID3V2Frame.java
+END
+SYTCID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/45/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/SYTCID3V2Frame.java
+END
+POSSID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/39/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/POSSID3V2Frame.java
+END
+TPE2TextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/72/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TPE2TextInformationID3V2Frame.java
+END
+TPE4TextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/74/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TPE4TextInformationID3V2Frame.java
+END
+TDLYTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/52/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TDLYTextInformationID3V2Frame.java
+END
+ContentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/22/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/ContentType.java
+END
+TextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/54/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TextInformationID3V2Frame.java
+END
+WORSUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/98/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WORSUrlLinkID3V2Frame.java
+END
+EncryptedID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/24/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/EncryptedID3V2Frame.java
+END
+UnknownID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/87/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/UnknownID3V2Frame.java
+END
+ID3V2Tag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/31/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/ID3V2Tag.java
+END
+TOLYTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/67/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TOLYTextInformationID3V2Frame.java
+END
+TMEDTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/64/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TMEDTextInformationID3V2Frame.java
+END
+TDATTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/51/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TDATTextInformationID3V2Frame.java
+END
+TLANTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/62/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TLANTextInformationID3V2Frame.java
+END
+WCOPUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/94/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WCOPUrlLinkID3V2Frame.java
+END
+TOALTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/65/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TOALTextInformationID3V2Frame.java
+END
+WOASUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/97/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WOASUrlLinkID3V2Frame.java
+END
+TCOMTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/48/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TCOMTextInformationID3V2Frame.java
+END
+TLENTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/63/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TLENTextInformationID3V2Frame.java
+END
+TRCKTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/77/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TRCKTextInformationID3V2Frame.java
+END
+WXXXUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/101/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WXXXUrlLinkID3V2Frame.java
+END
+WPAYUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/99/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WPAYUrlLinkID3V2Frame.java
+END
+TPUBTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/76/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TPUBTextInformationID3V2Frame.java
+END
+USLTID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/92/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/USLTID3V2Frame.java
+END
+ENCRID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/23/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/ENCRID3V2Frame.java
+END
+TSSETextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/83/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TSSETextInformationID3V2Frame.java
+END
+EQUAID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/25/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/EQUAID3V2Frame.java
+END
+RVADID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/42/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/RVADID3V2Frame.java
+END
+TALBTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/46/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TALBTextInformationID3V2Frame.java
+END
+LINKID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/33/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/LINKID3V2Frame.java
+END
+TIT2TextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/59/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TIT2TextInformationID3V2Frame.java
+END
+TYERTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/85/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TYERTextInformationID3V2Frame.java
+END
+TPOSTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/75/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TPOSTextInformationID3V2Frame.java
+END
+UnknownUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/89/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/UnknownUrlLinkID3V2Frame.java
+END
+TRSOTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/80/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TRSOTextInformationID3V2Frame.java
+END
+TSIZTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/81/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TSIZTextInformationID3V2Frame.java
+END
+TENCTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/53/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TENCTextInformationID3V2Frame.java
+END
+MLLTID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/35/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/MLLTID3V2Frame.java
+END
+POPMID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/38/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/POPMID3V2Frame.java
+END
+APICID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/APICID3V2Frame.java
+END
+ID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/30/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/ID3V2Frame.java
+END
+TPE1TextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/71/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TPE1TextInformationID3V2Frame.java
+END
+TFLTTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/56/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TFLTTextInformationID3V2Frame.java
+END
+TSRCTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/82/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TSRCTextInformationID3V2Frame.java
+END
+TPE3TextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/73/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TPE3TextInformationID3V2Frame.java
+END
+ETCOID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/ETCOID3V2Frame.java
+END
+WOAFUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/95/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WOAFUrlLinkID3V2Frame.java
+END
+TEXTTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/55/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TEXTTextInformationID3V2Frame.java
+END
+COMRID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/21/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/COMRID3V2Frame.java
+END
+PCNTID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/37/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/PCNTID3V2Frame.java
+END
+AENCID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/18/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/AENCID3V2Frame.java
+END
+WCOMUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/93/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WCOMUrlLinkID3V2Frame.java
+END
+IPLSID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/32/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/IPLSID3V2Frame.java
+END
+TORYTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/69/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TORYTextInformationID3V2Frame.java
+END
+TIMETextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/57/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TIMETextInformationID3V2Frame.java
+END
+WOARUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/96/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WOARUrlLinkID3V2Frame.java
+END
+UnknownTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/88/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/UnknownTextInformationID3V2Frame.java
+END
+MCDIID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/34/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/MCDIID3V2Frame.java
+END
+USERID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/91/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/USERID3V2Frame.java
+END
+TCONTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/49/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TCONTextInformationID3V2Frame.java
+END
+WPUBUrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/100/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/WPUBUrlLinkID3V2Frame.java
+END
+TCOPTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/50/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TCOPTextInformationID3V2Frame.java
+END
+UrlLinkID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/90/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/UrlLinkID3V2Frame.java
+END
+GRIDID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/28/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/GRIDID3V2Frame.java
+END
+TXXXTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/84/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TXXXTextInformationID3V2Frame.java
+END
+UFIDID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/86/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/UFIDID3V2Frame.java
+END
+TKEYTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/61/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TKEYTextInformationID3V2Frame.java
+END
+COMMID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/20/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/COMMID3V2Frame.java
+END
+SYLTID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/44/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/SYLTID3V2Frame.java
+END
+TIT1TextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/58/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TIT1TextInformationID3V2Frame.java
+END
+RBUFID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/41/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/RBUFID3V2Frame.java
+END
+TIT3TextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/60/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TIT3TextInformationID3V2Frame.java
+END
+ID3V2_3_0Tag.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/29/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/ID3V2_3_0Tag.java
+END
+TRSNTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/79/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TRSNTextInformationID3V2Frame.java
+END
+TOWNTextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/70/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TOWNTextInformationID3V2Frame.java
+END
+TRDATextInformationID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/78/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/TRDATextInformationID3V2Frame.java
+END
+OWNEID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/OWNEID3V2Frame.java
+END
+RVRBID3V2Frame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/43/trunk/gmoteserver/src/org/blinkenlights/jid3/v2/RVRBID3V2Frame.java
+END

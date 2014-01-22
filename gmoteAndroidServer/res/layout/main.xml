@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	android:gravity ="center_horizontal"
+	android:padding="20dp"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="0.0dip"
+	    android:layout_weight="30.0"
+	    android:layout_height="fill_parent"
+    	>
+		<TextView
+			android:id="@+id/content"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/hello"
+		    android:gravity="center_horizontal"
+		    />
+		 <TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/ip_address"
+		
+		 />
+		<ListView 
+		    android:id="@+id/list" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:drawSelectorOnTop="false"
+			android:fastScrollEnabled="false"
+			android:focusable = "false"/>
+		<TextView
+			android:id="@+id/udp_port_title"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/udp_port_title"
+		    />
+		<TextView
+			android:id="@+id/udp_port"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    />
+		<TextView
+			android:id="@+id/connected_ip_title"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/connected_ip_title"
+		    />
+		<TextView
+			android:id="@+id/connected_ip"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="0.0dip"
+	    android:layout_weight="3.0"
+	    android:layout_height="fill_parent"
+    	>
+	</LinearLayout>	
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="0.0dip"
+	    android:layout_weight="10.0"
+	    android:layout_height="fill_parent"
+    	>
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="20dip"
+		    />
+	    <ImageView 
+	        android:id="@+id/qrcode_img"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:background="@drawable/qr"
+	        />
+	    <TextView
+			android:id="@+id/qrcode_note"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/qrnote"
+		    />
+    </LinearLayout>
+</LinearLayout>

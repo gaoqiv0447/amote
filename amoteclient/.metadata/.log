@@ -1,0 +1,10 @@
+!SESSION 2012-01-10 20:08:41.531 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2012-01-10 20:26:43.271
+!MESSAGE DDMS files not found: /home/gaoqi/桌面/platform-tools/adb /home/gaoqi/桌面/tools/hprof-conv /home/gaoqi/桌面/tools/traceview 

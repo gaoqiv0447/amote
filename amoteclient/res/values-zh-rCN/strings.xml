@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources>
+  <string name="app_name">Amote</string>
+
+    <!-- File -->
+    <string name="no_files">Amote并没有找到多媒体文件</string>
+    <string name="current_path">"org.gmote.browse.Path"</string>
+    <string name="file_type">"org.gmote.control.type"</string>
+
+    <!-- Popup window -->
+    <string name="inputText">请输入</string>
+    <string name="deleteText">删除</string>
+    <string name="send">发送</string>
+    <string name="fade">隐藏</string>
+
+    <!-- Connection -->
+    <string name="attempting_connection">尝试连接...</string>
+    <string name="connected">连接成功</string>
+    <string name="disconnected">Amote 断开连接</string>
+
+    <!-- Welcome screen -->
+    <string name="welcome_header">Welcome!</string>
+    <string name="welcome_message">On your <b>computer</b>, go to:
+    </string>
+    <string name="welcome_continue">我已经安装TV端，开始Amote!</string>
+    <string name="gmote_stream_mode">org.gmote.browse.GmoteSyncMode</string>
+	<string name="gmote_stream_playlist">org.gmote.browse.GmoteStreamPlaylist</string>
+
+	<!-- Help -->
+	<string name="help_explanation">######</string>
+
+	<!-- message -->
+	<string name="help_title">帮助</string>
+	<string name="alert">警告</string>
+	<string name="ok_btn">OK</string>
+	<string name="cancel_btn">Cancel</string>
+	<string name="exit_btn">退出</string>
+	<string name="exit_warning">确定退出程序？</string>
+	<string name="update_title">升级</string>
+	<string name="update_msg_noupdater">TV端程序已经过时并且与客户端程序版本不同.\n请退出TV端并去http://www.aisino.com/下载最新程序\n</string>
+	<string name="update_msg_outofdate">TV端程序已经过时并且与客户端程序版本不同.\n请退出TV端并去http://www.aisino.com/下载最新程序\n</string>
+	<string name="connecting_to_the_server">连接到TV</string>
+	<string name="connection_problem">连接出错</string>
+	<string name="amoteServer_exit">TV端程序退出</string>
+	<string name="enter_password">请输入密码</string>
+	<string name="client_update_required">客户端升级</string>
+	<string name="fetching_list_of_files">正在加载文件列表</string>
+	<string name="screen_shot">正在截图</string>
+	<string name="connecting">正在连接server</string>
+	<string name="unknow_file">未知文件</string>
+	<string name="error_title">错误</string>
+	<string name="error_msg_session_null">Encountered a null session id. Please re-connect to the server by clicking \'menu\', \'Amote Stream\' and try again</string>
+	<string name="error_msg_cant_play">TV is unable to find an android application to play this file type:</string>
+	<string name="error_msg_playback">An error occurred during playback. This can happen when your phone experiences connection issues. </string>
+	<string name="loading">loading</string>
+	<string name="email_intent">欢迎使用Gmote,点击一下链接安装程序到你的TV:\nhttp://www.aisino.com/</string>
+	<string name="launch_mail_error">不能启动邮件程序</string>
+	<string name="fetch_song_error">FetchSong error. No session id. (not connected to server?)</string>
+	<string name="cant_request_file">Error: Can\'t request a file without an active session. Please try to first connect to the server by hitting browse.</string>
+	<string name="exit_msg">再按一次退出程序</string>
+	<string name="set_server_to">正在连接到： </string>
+	<string name="connect_server_success">连接成功! </string>
+	<string name="connect_server_failure">连接失败，请重新连接! </string>
+	<string name="search_server">正在搜索TV端，请稍等</string>
+	<string name="connect_to_wifi_msg">请确认连接到Wifi</string>
+	<string name="setup">Setup</string>
+	<string name="install_server_msg">请确认TV端程序安装并且运行，连接到与客户端相同的无线网.</string>
+	<string name="enter_ip_manually">输入IP</string>
+	<string name="done_btn">完成</string>
+	<string name="not_install_voicesearch">没有安装 Google VoiceSearch.apk</string>
+	<string name="couldnot_delete_scan_server">禁止删除自动扫描到的服务器!</string>
+	<!-- wdw add -->
+	<string name="browse">浏览</string>
+    <string name="play_on">Play on:</string>
+    <string name="computer">TV</string>
+    <string name="hostname_ip">主机名称或IP</string>
+    <string name="port">端口</string>
+    <string name="default_port">8851</string>
+    <string name="mouse_acceleration">鼠标加速度 </string>
+    <string name="mouse_sensity">鼠标灵敏度 </string>
+    <string name="ok">OK</string>
+    <string name="defaults">默认</string>
+    <string name="update">"升级信息"</string>
+    <string name="url">URL</string>
+    <string name="go">转</string>
+    <string name="back">返</string>
+    <string name="open_on_tv">用电视打开</string>
+    <string name="step_2">请到以下链接下载TV端</string>
+    <string name="home_page"></string>
+    <string name="email_me">(通过邮件发送链接)</string>
+    <string name="ip_address">IP</string>
+    <string name="tcp_port">"TCP 端口 (可选)"</string>
+    <string name="udp_port">"UDP 端口 (可选)"</string>
+    <string name="server_list">最近连接列表</string>
+    <string name="list_voice">语音检索结果</string>
+    <string name="gameintroduce">说明：\n1.点击屏幕左上角按钮，会截取TV端屏幕画面，按钮可以随意拖动\n2.您可以在此页面下点击，拖拽，滑动来控制TV端\n3.此页面下支持TV端体感游戏，转动手机或PAD即可操控如赛车等TV端游戏</string>
+
+	<!-- user guide tips!-->
+	<string name="user_guide_tilte">提示</string>
+	<string name="user_guide_msg">使用该功能需要在TV端安装插件，请点击安装，并重启TV端设备.如果不想使用该功能，请到TV端“设置”中卸载</string>
+	<string name="user_guide_ok">安装</string>
+	<string name="user_guide_cancel">取消</string>
+	<string name="plugin_install_error_msg">插件安装失败，请尝试重新安装</string>
+	<string name="plugin_reinstall">重新安装</string>
+	<string name="plugin_install_sucess_msg">插件安装成功！</string>
+	<string name="plugin_ok">确定</string>
+	<string name="plugin_install_progress">正在安装...</string>
+	
+	<!-- download apk -->
+	<string name="is_down_voicesearch">依赖谷歌语音识别，您是否要安装？</string>
+	<string name="download_ok">是</string>
+	<string name="download_cancel">否</string>
+	<string name="download_title">提示</string>
+	<string name="download_apk_title">下载</string>
+	<string name="download_apk_msg">正在下载谷歌语音识别应用...</string>
+	<string name="timeout">连接超时!</string>
+</resources>

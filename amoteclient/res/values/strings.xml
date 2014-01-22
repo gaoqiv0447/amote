@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amote</string>
+
+    <!-- File -->
+    <string name="no_files">"Amote did not find any media files here."</string>
+    <string name="current_path">"org.gmote.browse.Path"</string>
+    <string name="file_type">"org.gmote.control.type"</string>
+
+    <!-- Popup window -->
+    <string name="inputText">Input Text</string>
+    <string name="deleteText">Del</string>
+    <string name="send">Send</string>
+    <string name="fade">Fade</string>
+    <string name="left">L</string>
+    <string name="right">R</string>
+
+    <!-- Sensor Pad  -->
+    <string name = "sensorbutton">Sensor Button</string>
+    <string name = "sensorstart">Sensor send data</string>
+    <string name = "sensorenable">Sensor Enable</string>
+
+    <!-- Connection -->
+    <string name="attempting_connection">Attempting connection...</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Amote disconnected.</string>
+
+    <!-- Welcome screen -->
+    <string name="welcome_header">Welcome!</string>
+    <string name="welcome_message">On your <b>computer</b>, go to:
+    </string>
+    <string name="welcome_continue">I have installed the Server. Start Amote!</string>
+    <string name="gmote_stream_mode">org.gmote.browse.GmoteSyncMode</string>
+	<string name="gmote_stream_playlist">org.gmote.browse.GmoteStreamPlaylist</string>
+
+	<!-- Help -->
+	<string name="help_explanation">######</string>
+
+	<!-- message -->
+	<string name="help_title">Help</string>
+	<string name="alert">Alert</string>
+	<string name="ok_btn">OK</string>
+	<string name="cancel_btn">Cancel</string>
+	<string name="exit_btn">Exit</string>
+	<string name="exit_warning">Are you sure exit the app?</string>
+	<string name="update_title">Update</string>
+	<string name="update_msg_noupdater">The TV application is out of date and is incompatible with the current version of Amote that is on your phone.\n\nPlease exit the Amote Server and install the latest server software from http://www.aisino.com on your computer.\n</string>
+	<string name="update_msg_outofdate">The TV application is out of date and is incompatible with the current version of Amote that is on your phone.\n\nClick Ok to update your server. Clicking cancel will terminate your connection to the server.\n</string>
+	<string name="connecting_to_the_server">Connecting to the server</string>
+	<string name="connection_problem">Connection problem</string>
+	<string name="amoteServer_exit">AmoteServer exit.</string>
+	<string name="enter_password">Please enter your password</string>
+	<string name="client_update_required">Client Update Required</string>
+	<string name="fetching_list_of_files">Fetching list of files</string>
+	<string name="screen_shot">Screen shot</string>
+	<string name="connecting">Connecting server</string>
+	<string name="unknow_file">Unknow File</string>
+	<string name="error_title">Error</string>
+	<string name="error_msg_session_null">Encountered a null session id. Please re-connect to the server by clicking \'menu\', \'Amote Stream\' and try again</string>
+	<string name="error_msg_cant_play">TV is unable to find an android application to play this file type:</string>
+	<string name="error_msg_playback">An error occurred during playback. This can happen when your phone experiences connection issues. </string>
+	<string name="loading">loading</string>
+	<string name="email_intent"></string>
+	<string name="launch_mail_error">Unable to launch mail application. </string>
+	<string name="fetch_song_error">FetchSong error. No session id. (not connected to server?)</string>
+	<string name="cant_request_file">Error: Can\'t request a file without an active session. Please try to first connect to the server by hitting browse.</string>
+	<string name="exit_msg">Press again to exit</string>
+	<string name="set_server_to">Connecting to </string>
+	<string name="connect_server_success">Connect sucess! </string>
+	<string name="connect_server_failure">Connect fail锛孭lease reconnect! </string>
+	<string name="search_server">Searching for servers. This may take a few seconds.</string>
+	<string name="connect_to_wifi_msg">Please enable Wifi on your phone, and connect it to the network that your server is on.</string>
+	<string name="setup">Setup</string>
+	<string name="install_server_msg">Make sure that your TV application is installed, running, and connected to the same wireless network as this phone. Also, please verify your network settings.</string>
+	<string name="enter_ip_manually">Enter Ip Manually</string>
+	<string name="done_btn">Done</string>
+	<string name="not_install_voicesearch">Not install Google VoiceSearch.apk</string>
+	<string name="couldnot_delete_scan_server">Scan Server could not be deleted!</string>
+	<!-- wdw add -->
+	 <string name="browse">Browse</string>
+    <string name="play_on">Play on:</string>
+    <string name="computer">TV</string>
+    <string name="hostname_ip">Hostname or IP</string>
+    <string name="port">Port</string>
+    <string name="default_port">8851</string>
+    <string name="mouse_acceleration">Mouse Acceleration</string>
+    <string name="mouse_sensity">Mouse Sensitivity</string>
+    <string name="ok">OK</string>
+    <string name="defaults">Defaults</string>
+    <string name="update">"update information"</string>
+    <string name="url">URL</string>
+    <string name="go">Go</string>
+    <string name="back">Back</string>
+    <string name="open_on_tv">Open on TV</string>
+    <string name="step_2">Install Remote Server on your computer by going to:</string>
+    <string name="home_page"></string>
+    <string name="email_me">(Email me the link)</string>
+    <string name="ip_address">IP</string>
+    <string name="tcp_port">"TCP Port (optional)"</string>
+    <string name="udp_port">"UDP Port (optional)"</string>
+    <string name="server_list">Recently connected server list</string>
+	<string name="list_voice">Voice Search Result</string>
+
+	<string name="bgcolor">#0140051</string>
+	<string name="gameintroduce">Introduce:\n1.The TV Screen will capture when you press photo button which can be moved, on the top left corner\n2.You can operate this view to control TV by touching,dragging\n3.You can also roll your device when playing sensor games.</string>
+	<string name="button_test">"button"</string>
+	
+	<!-- user guide tips!-->
+	<string name="user_guide_tilte">Tips</string>
+	<string name="user_guide_msg">Press Install button to install this function and restart your TV.Uninstall this funciton in "Setting" on your TV.</string>
+	<string name="user_guide_ok">Install</string>
+	<string name="user_guide_cancel">Cancel</string>
+	<string name="plugin_install_error_msg">Plugin installing failed,please try again.</string>
+	<string name="plugin_reinstall">Reinstall</string>
+	<string name="plugin_install_sucess_msg">Install Plugin Successfully!</string>
+	<string name="plugin_ok">Ok</string>
+	<string name="plugin_install_progress">Installing...</string>
+	
+	<!-- download apk -->
+	<string name="is_down_voicesearch">Do you want download Google Voice Search?</string>
+	<string name="download_ok">OK</string>
+	<string name="download_cancel">Cancel</string>
+	<string name="download_title">Info</string>
+	<string name="download_apk_title">Download</string>
+	<string name="download_apk_msg">Downloading Google Voice Search apk...</string>
+	<string name="timeout">Time out!</string>
+</resources>

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/132/trunk/gmoteclient/res/layout
+END
+update_client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/update_client.xml
+END
+web_browser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/web_browser.xml
+END
+server_not_found.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/server_not_found.xml
+END
+alert_dialog_text_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/alert_dialog_text_view.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/main.xml
+END
+password_form.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/password_form.xml
+END
+image_browser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/image_browser.xml
+END
+touchpad_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/touchpad_settings.xml
+END
+file_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/file_list_item.xml
+END
+server_form.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/server_form.xml
+END
+media_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/media_info.xml
+END
+welcome.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/welcome.xml
+END
+touchpad.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/132/trunk/gmoteclient/res/layout/touchpad.xml
+END
+media_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/media_view.xml
+END
+file_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/file_list.xml
+END
+loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/126/trunk/gmoteclient/res/layout/loading.xml
+END

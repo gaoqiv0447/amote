@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">TV端应用已启动</string>
+    <string name="app_name">遥控器TV端</string>
+    <string name="set_password">设置密码</string>
+    <string name="password">输入密码</string>
+    <string name="repassword">确认密码</string>
+    <string name="password_diff">"密码不同，请重新输入"</string>
+    <string name="alert">"密码提示"</string>
+    <string name="ok_btn">确定</string>
+    <string name="hide_btn">后台运行</string>
+    <string name="cancel_btn">取消</string>
+    <string name="dialog_title">退出</string>
+	<string name="dialog_message">确定退出应用?</string>
+	<string name="notification_title">应用隐藏</string>
+	<string name="notification_message">TV端通知信息</string>
+	<string name="notification_content">TV端通知</string>
+	<string name="no_network_message">请确认设备已经连接到网络并重试</string>
+	<string name="connect_fail_message">连接遥控器端失败，遥控器端IP是：</string>
+	<string name="connect_success_message">成功连接到遥控器端，遥控器端IP是：</string>
+	<string name="auth_dialog_title"> 连接信息</string>
+	<string name="ip_address">"本机IP地址："</string>
+	<string name="tcp_port">"TCP 端口:"</string>
+	<string name="udp_port_title">"UDP 端口:"</string>
+	<string name="connected_ip_title">"遥控器端信息："</string>
+	<string name="client_force_exit">"遥控器端已退出"</string>
+	<!--menu info-->
+	<string name="menu_setting_title">设置</string>
+	<string name="change_pwd_title"> 修改密码</string>
+	<string name="new_password_title"> 输入密码</string>
+	<string name="confirm_password_title"> 确认密码</string>
+	<string name="password_error_info">两次输入的密码不同，请重新输入</string>
+	<!--menu info end-->
+	<!--preference file name-->
+	<string name="shared_preference_name">gmote_server</string>
+	<!--setting activity-->
+	<string name="setting_title">设置</string>
+	<string name="setting_auto_start_title"> 设置为开机启动</string>
+	<string name="setting_auto_start_msg"> 是否开机启动</string>
+	<string name="setting_auto_start_key">autostart</string>
+	<string name="setting_mouse_style_title">鼠标样式</string>
+	<string name="setting_mouse_style_key">mousestyle</string>
+	<string name="settting_plugin_category">扩展功能</string>
+	<string name="setting_plugin_manager_key">plugin_manager_key</string>
+	<string name="setting_install_category_key">plugin_install_category</string>
+	<string name="setting_uninstall_category_key">plugin_uninstall_category</string>
+	<string name="settting_plugin_manager">插件管理</string>
+	<string name="settting_plugin_manager_summary">安装或删除插件</string>
+	<string name="setting_plugin_browse_key">browse_plugin</string>
+	<string name="setting_plugin_sensor_key">sensor_plugin</string>
+	<string name="settting_browse_title">文件浏览插件</string>
+	<string name="settting_browse_summary">文件浏览插件能够使遥控器远程浏览TV端文件</string>
+	<string name="settting_sensor_title">传感器插件</string>
+	<string name="settting_sensor_summary">传感器插件能够使遥控器玩TV端的体感游戏</string>
+	<string name="setting_plugin_installed_title">已安装插件</string>
+	<string name="setting_plugin_uninstalled_title">未安装插件</string>
+	<string name="setting_plugin_install_dialog_title">插件安装</string>
+	<string name="setting_plugin_uninstall_dialog_title">插件卸载</string>
+	<string name="setting_browse_plugin_install_dialog_msg">文件浏览插件能够使遥控器远程浏览TV端文件\n安装之后请重启设备</string>
+	<string name="setting_sensor_plugin_install_dialog_msg">传感器插件能够使遥控器玩TV端的体感游戏\n安装之后请重启设备</string>
+	<string name="setting_plugin_uninstall_dialog_msg">确认删除该插件？</string>
+	<string name="qrnote">客户端安装包\n二维码</string>
+	<!--setting activity end-->
+
+	<!-- input method -->
+	<string name="im_tips">"请使用遥控器端的输入框进行输入，或切换其它输入法使用鼠标直接输入。"</string>
+</resources>

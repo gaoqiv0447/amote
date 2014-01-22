@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.amote.client.TouchpadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/touchpad"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mouse_mode"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="68.0"
+            android:background="@drawable/new_all_background1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="74.0"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="13.0" />
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="44.0"
+                    android:orientation="horizontal" >
+
+                    <View
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="5.0" />
+
+                    <ImageButton
+                        android:id="@+id/new_mouse_close"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="69.0"
+                        android:background="@drawable/new_media_switch" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="11.0" />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="50.0"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/new_mouse_edittext"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="0.0" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/new_mouse_background_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="120.0"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="5.0" />
+                
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="28.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <SeekBar
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/mouse_touch_seek"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="2.0" />
+
+               <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="28.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                    
+                <SeekBar
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/mouse_gravitation_seek"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    />
+                
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="5.0" />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="76.0"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="13.0" />
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="44.0"
+                    android:orientation="horizontal" >
+
+                    <View
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3.0" />
+
+                    <ImageButton
+                        android:id="@+id/new_mouse_key"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="69.0"
+                        android:background="@drawable/new_mouse_key" />
+
+                    <View
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4.0" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="11.0" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="296.0"
+            android:orientation="horizontal"
+            android:background="@drawable/new_mouse_pad" >
+			    <View
+	                android:id="@+id/new_mouse_pad"
+	                android:layout_width="0.0dip"
+	                android:layout_height="fill_parent"/>
+	                 <!--android:layout_weight="270.0"-->
+	                 
+	             <View
+	                 android:id="@+id/seek_bar_h"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="40dip"
+	                 android:layout_alignParentBottom="true"
+	                 android:layout_marginLeft="20dip"
+	                 android:layout_marginRight="50dip"
+	                 android:background="@drawable/seekbarh" />
+	             <View
+	                 android:id="@+id/seek_bar_v"
+	                 android:layout_width="40dip"
+	                 android:layout_height="wrap_content"
+	                 android:layout_alignParentRight="true"
+	                 android:layout_marginTop="20dip"
+	                 android:layout_marginBottom="50dip"
+	                 android:background="@drawable/seekbarv" />
+
+            <!--   org.amote.client.TouchExampleView
+                android:id="@+id/new_mouse_wheel"
+            	xmlns:android="http://schemas.android.com/apk/res/android"
+            	android:layout_width="0.0dip"
+            	android:layout_height="fill_parent"
+            	android:layout_weight="50.0"
+                android:background="@drawable/new_mouse_wheel"
+                /-->
+        </RelativeLayout>
+
+<!--         <LinearLayout -->
+<!--             xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="0.0dip" -->
+<!--             android:layout_weight="73.0" -->
+<!--             android:orientation="horizontal" > -->
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/new_mouse_back" -->
+<!--                 android:layout_width="0.0dip" -->
+<!--                 android:layout_height="fill_parent" -->
+<!--                 android:layout_weight="108.0" -->
+<!--                 android:background="@drawable/new_mouse_back" /> -->
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/new_mouse_center" -->
+<!--                 android:layout_width="0.0dip" -->
+<!--                 android:layout_height="fill_parent" -->
+<!--                 android:layout_weight="101.0" -->
+<!--                 android:background="@drawable/new_mouse_center" /> -->
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/new_mouse_foward" -->
+<!--                 android:layout_width="0.0dip" -->
+<!--                 android:layout_height="fill_parent" -->
+<!--                 android:layout_weight="111.0" -->
+<!--                 android:background="@drawable/new_mouse_foward" /> -->
+<!--         </LinearLayout> -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="95.0"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/new_mouse_left"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="108.0"
+                android:background="@drawable/new_mouse_left" />
+
+            <ImageButton
+                android:id="@+id/new_mouse_sensor"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="101.0"
+                android:background="@drawable/new_mouse_sensor" />
+
+            <ImageButton
+                android:id="@+id/new_mouse_right"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="111.0"
+                android:background="@drawable/new_mouse_right" />
+        </LinearLayout>
+    <LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="0.0dip"
+			android:layout_weight="60.0"
+			android:background="#000000"
+			android:orientation="horizontal" >
+
+			<ImageButton android:id="@+id/home_switch_touchpad"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@drawable/back_home_switch" />
+
+			<ImageButton android:id="@+id/main_control_switch_touchpad"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@drawable/main_control_switch" />
+
+			<ImageButton android:id="@+id/touch_pad_switch_touchpad"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@drawable/touch_pad_switch" />
+
+			<ImageButton android:id="@+id/game_control_switch_touchpad"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@drawable/game_control_switch" />
+
+		</LinearLayout>		
+    </LinearLayout>
+
+</org.amote.client.TouchpadLayout>

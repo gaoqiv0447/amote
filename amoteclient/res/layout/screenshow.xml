@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#067E9F">
+
+	<TextView
+    	android:id="@+id/intro_textview"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+  		android:textSize="20sp"
+  		android:textColor="#ffffff"
+  		android:gravity="center"
+        android:text="@string/gameintroduce">
+	</TextView>
+
+	<ImageView
+		android:id="@+id/screenshot_imageview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</ImageView>
+	<include
+		layout="@layout/switch_dialog"/>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/101/trunk/gmoteserver/src/org/blinkenlights/jid3
+END
+MediaFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/15/trunk/gmoteserver/src/org/blinkenlights/jid3/MediaFile.java
+END
+MP3File.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/16/trunk/gmoteserver/src/org/blinkenlights/jid3/MP3File.java
+END
+InvalidFrameID3Exception.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14/trunk/gmoteserver/src/org/blinkenlights/jid3/InvalidFrameID3Exception.java
+END
+ID3Tag.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/13/trunk/gmoteserver/src/org/blinkenlights/jid3/ID3Tag.java
+END
+ID3Exception.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/12/trunk/gmoteserver/src/org/blinkenlights/jid3/ID3Exception.java
+END

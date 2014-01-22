@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/trunk/gmoteserver/src/org/blinkenlights/jid3/crypt
+END
+ID3CryptException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/6/trunk/gmoteserver/src/org/blinkenlights/jid3/crypt/ID3CryptException.java
+END
+ICryptoAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6/trunk/gmoteserver/src/org/blinkenlights/jid3/crypt/ICryptoAgent.java
+END
+ID3Encryption.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/6/trunk/gmoteserver/src/org/blinkenlights/jid3/crypt/ID3Encryption.java
+END

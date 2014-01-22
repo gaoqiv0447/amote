@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/new_first_background"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="2.0" />
+
+    <TextView
+        android:id="@+id/first_ipaddress"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="25.0"
+        android:gravity="center"
+        android:text="@string/ip_address"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="40.0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="75.0" />
+
+        <EditText
+            android:id="@+id/server_edit"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="330.0"
+            android:imeOptions="actionDone"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="75.0" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="2.0" />
+
+    <TextView
+        android:id="@+id/port_label"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="25.0"
+        android:gravity="center"
+        android:text="@string/tcp_port"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="40.0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="75.0" />
+
+        <EditText
+            android:id="@+id/tcp_port_edit"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="330.0"
+            android:hint="8851"
+            android:imeOptions="actionDone"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="75.0" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="2.0" />
+
+    <TextView
+        android:id="@+id/udp_port_label"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="25.0"
+        android:gravity="center"
+        android:text="@string/udp_port"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="40.0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="75.0" />
+
+        <EditText
+            android:id="@+id/udp_port_edit"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="330.0"
+            android:hint="9901"
+            android:imeOptions="actionDone"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="75.0" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="3.0" />
+
+    <TextView
+        android:id="@+id/first_serverlist"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="25.0"
+        android:gravity="center"
+        android:text="@string/server_list"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="145.0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="14.0" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="292.0"
+            android:background="@drawable/list_view_background" >
+
+            <ListView
+                android:id="@+id/first_serverlist_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="14.0" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="5.0" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="50.0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="14.0" />
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="10.0" />
+
+        <ImageButton
+            android:id="@+id/new_first_remove"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="91.0"
+            android:background="@drawable/new_first_remove" />
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="10.0" />
+
+        <ImageButton
+            android:id="@+id/new_first_connect"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="91.0"
+            android:background="@drawable/new_first_connect" >
+         </ImageButton>
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="13.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inputpopup_mode"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#85067898"
+    android:padding="10dp">
+    
+    <TextView android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="@string/inputText"
+        />
+    
+    <EditText android:id="@+id/entry"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/label"
+    	android:inputType="none"
+    	android:singleLine="true"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    	android:layout_below="@id/entry">
+    	
+    	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+    	    <ImageButton android:id="@+id/inputleft"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/inputleft"
+	        />
+		    <ImageButton android:id="@+id/inputright"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toRightOf="@id/inputleft"
+		        android:background="@drawable/inputright"
+		        />
+	        
+	    	<ImageButton android:id="@+id/deletetext"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_alignParentRight="true"
+		        android:background="@drawable/inputdel"
+		        />
+    	</RelativeLayout>
+    	   
+    	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+    	    
+		    <ImageButton android:id="@+id/fade"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:background="@drawable/inputfade"
+		        />
+		    
+		    <ImageButton
+		        android:id="@+id/voicesearch"
+		        android:contentDescription="@string/fade"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:background="@drawable/inputvoice" />
+		    <ImageButton android:id="@+id/sendtext"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:background="@drawable/inputsend"
+		        />
+		    <ListView 
+		        android:id="@+id/ListViewVoiceSearch"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/sendtext"
+		    	/>
+    	</RelativeLayout>
+    </LinearLayout>
+    
+    
+    
+</RelativeLayout>

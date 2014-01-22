@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_mode"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#014051"
+    android:orientation="horizontal" >
+    <View
+        android:id="@+id/hrztl_left"
+        android:layout_weight="0.0"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent" />    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="0.0dip"
+        android:layout_weight="100.0"
+        android:layout_height="fill_parent"
+        android:background="#014051"
+        android:orientation="vertical" >
+    
+        <View
+            android:id="@+id/vtcl_top"
+            android:layout_weight="0.0"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip" />   
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="100.0"
+            android:orientation="vertical">
+	        
+		    <View
+		        android:layout_width="0.0dip"
+		        android:layout_height="0.0dip"
+				android:layout_weight="3.0" />
+		    <LinearLayout
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="23.0"
+		        android:orientation="horizontal"
+		        >    
+				<View
+					android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="3.0" />
+				<LinearLayout
+			        xmlns:android="http://schemas.android.com/apk/res/android"
+			        android:layout_width="0.0dip"
+			        android:layout_height="fill_parent"
+			        android:layout_weight="60.0"
+			        android:background="#5954ceff"
+			        android:orientation="vertical"
+			        >
+			        <View
+				    		android:layout_width="fill_parent"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="2.0"/>
+			        <LinearLayout
+				        xmlns:android="http://schemas.android.com/apk/res/android"
+				        android:layout_width="fill_parent"
+				        android:layout_height="0.0dip"
+				        android:layout_weight="8.0"
+				        android:orientation="horizontal"
+				        >
+				        <View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="fill_parent"
+		                    android:layout_weight="2.5" />
+				        <ImageView
+			            	android:layout_width="0.0dip"
+		                    android:layout_height="fill_parent"
+		                    android:layout_weight="10.0"
+		                    android:background="@drawable/logo_pad"/>
+						<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="fill_parent"
+		                    android:layout_weight="1.0" />
+						<LinearLayout
+					        xmlns:android="http://schemas.android.com/apk/res/android"
+					        android:layout_width="0.0dip"
+					        android:layout_height="fill_parent"
+					        android:layout_weight="12.0"
+					        android:orientation="vertical">
+					        <View
+					    		android:layout_width="fill_parent"
+			                    android:layout_height="0.0dip"
+			                    android:layout_weight="2.0" />
+							<ImageView 
+							    android:layout_width="fill_parent"
+			                    android:layout_height="0.0dip"
+			                    android:layout_weight="3.0"
+			                    android:background="@drawable/amote"/>
+							<View
+					    		android:layout_width="fill_parent"
+			                    android:layout_height="0.0dip"
+			                    android:layout_weight="1.0" />
+							<TextView 
+							    android:id="@+id/version"
+							    android:layout_width="fill_parent"
+			                    android:layout_height="0.0dip"
+			                    android:layout_weight="2.0"
+			                    android:gravity="right"
+			                    android:text="@string/app_name"/>
+						</LinearLayout>
+						
+						<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="fill_parent"
+		                    android:layout_weight="2.0" />
+				    </LinearLayout>
+			        
+			        <View
+				    		android:layout_width="fill_parent"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="2.0" />
+			    </LinearLayout>    
+				<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="fill_parent"
+		                    android:layout_weight="1.0" />
+				<ImageButton
+			                android:id="@+id/main_findserver"
+			                android:layout_width="0.0dip"
+			                android:layout_height="fill_parent"
+			                android:layout_weight="30.0"
+			                android:background="@drawable/main_findserver" />
+				<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="3.0" />
+		    </LinearLayout>
+		    <View
+		        android:layout_width="0.0dip"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="1.0" />
+		    <LinearLayout
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="23.0"
+		        android:orientation="horizontal" >
+				<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="3.0" />    
+				<ImageButton
+				                android:id="@+id/main_remote"
+				                android:layout_width="0.0dip"
+				                android:layout_height="fill_parent"
+				                android:layout_weight="60.0"
+				                android:background="@drawable/main_remote" />
+				<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="1.0" />
+				<ImageButton
+			                android:id="@+id/main_tv_file"
+			                android:layout_width="0.0dip"
+			                android:layout_height="fill_parent"
+			                android:layout_weight="30.0"
+			                android:background="@drawable/main_file" />
+				<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="3.0" />
+		    </LinearLayout>
+		    <View
+		        android:layout_width="0.0dip"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="1.0" />
+		    <LinearLayout
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="23.0"
+		        android:orientation="horizontal" >   
+		        <View
+		            		android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="3.0" />  
+		        <ImageButton
+			                android:id="@+id/main_game"
+			                android:layout_width="0.0dip"
+			                android:layout_height="fill_parent"
+			                android:layout_weight="60.0"
+			                android:background="@drawable/main_game" />
+				<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="1.0" />
+				<ImageButton
+			                android:id="@+id/main_web"
+			                android:layout_width="0.0dip"
+			                android:layout_height="fill_parent"
+			                android:layout_weight="30.0"
+			                android:background="@drawable/main_web" />
+				<View
+				    		android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="3.0" />
+		    </LinearLayout>
+		    <View
+		        android:layout_width="0.0dip"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="1.0" />
+		    <LinearLayout
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="23.0"
+		        android:orientation="horizontal" >    
+		        <View
+		            		android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="3.0" />
+				<ImageButton
+			                android:id="@+id/main_touchpad"
+			                android:layout_width="0.0dip"
+			                android:layout_height="fill_parent"
+			                android:layout_weight="60.0"
+			                android:background="@drawable/main_touch" />
+				<View android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="1.0" />
+				<ImageButton
+			                android:id="@+id/main_help"
+			                android:layout_width="0.0dip"
+			                android:layout_height="fill_parent"
+			                android:layout_weight="30.0"
+			                android:background="@drawable/main_help" />
+				<View android:layout_width="0.0dip"
+		                    android:layout_height="0.0dip"
+		                    android:layout_weight="3.0" />
+		    </LinearLayout>
+		    <View
+		        android:layout_width="0.0dip"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="3.0" />  
+	    </LinearLayout>
+	    <View
+        android:id="@+id/vtcl_bottom"
+        android:layout_weight="0.0" 
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip" />   
+    </LinearLayout>
+    <View
+        android:id="@+id/hrztl_right"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.0"/>
+</LinearLayout>

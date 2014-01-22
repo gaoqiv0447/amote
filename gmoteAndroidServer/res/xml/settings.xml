@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/setting_title">
+	<CheckBoxPreference 
+		  android:defaultValue="true" 
+		  android:key="@string/setting_auto_start_key" 		  
+		  android:title="@string/setting_auto_start_title" 
+		  android:summaryOn="@string/setting_auto_start_msg"
+		  android:summaryOff="@string/setting_auto_start_msg">
+	</CheckBoxPreference>
+	<ListPreference
+	   android:defaultValue="1"
+	   android:key="@string/setting_mouse_style_key"
+	   android:title="@string/setting_mouse_style_title"
+	   android:dialogTitle="@string/setting_mouse_style_title"
+	   android:entries="@array/mouse_style_entry"
+	   android:entryValues="@array/mouse_style_value">
+	   </ListPreference>
+	<!--
+    <PreferenceCategory
+        android:title="@string/settting_plugin_category">
+
+        <PreferenceScreen
+            android:key="@string/setting_plugin_manager_key"
+            android:title="@string/settting_plugin_manager"
+            android:summary="@string/settting_plugin_manager_summary">
+			
+			<PreferenceCategory
+				android:key="@string/setting_install_category_key"
+				android:title="@string/setting_plugin_installed_title">
+			</PreferenceCategory>
+			
+			<PreferenceCategory
+				android:key="@string/setting_uninstall_category_key"
+				android:title="@string/setting_plugin_uninstalled_title">
+			
+				<PreferenceScreen
+					android:key="@string/setting_plugin_browse_key"
+					android:title="@string/settting_browse_title"
+					android:summary="@string/settting_browse_summary">
+				</PreferenceScreen>
+				<PreferenceScreen
+					android:key="@string/setting_plugin_sensor_key"
+					android:title="@string/settting_sensor_title"
+					android:summary="@string/settting_sensor_summary">
+				</PreferenceScreen>
+			</PreferenceCategory>
+		
+        </PreferenceScreen>
+		
+    </PreferenceCategory>
+	!-->
+</PreferenceScreen>

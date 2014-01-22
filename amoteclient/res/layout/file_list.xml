@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#067E9F"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/file_list_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/file_list_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#999999"
+            android:paddingBottom="2px"
+            android:paddingLeft="5px"
+            android:paddingTop="2px"
+            android:shadowColor="#000000"
+            android:singleLine="true"
+            android:text="@string/browse"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/file_list_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5px" >
+
+        <ImageButton
+            android:id="@+id/new_browse_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/new_media_next" />
+            <ImageButton
+            android:id="@+id/new_browse_back"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+android:layout_marginTop="10.0dip"
+        android:layout_alignParentRight="true"
+            android:background="@drawable/new_media_play" />
+            <!--
+        <TextView
+            android:id="@+id/txt_play_on"
+android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="@string/play_on"
+            android:textColor="#FFFFFF"
+            android:textSize="16px"
+            android:textStyle="bold" >
+        </TextView>
+                    <RadioGroup
+            android:id="@+id/radio_group_play_on"
+            android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <RadioButton
+android:id="@+id/radio_play_on_computer"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:checked="false"
+                android:text="@string/computer" >
+</RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_play_on_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Phone (beta)" >
+            </RadioButton>
+        </RadioGroup>
+		-->
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/browse_top_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+    <FrameLayout
+        android:id="@+id/file_list_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#999999"
+        android:minHeight="1px" >
+    </FrameLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_files" />
+
+</LinearLayout>

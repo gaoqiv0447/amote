@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/gmoteserver/src/org/blinkenlights/jid3/util
+END
+ID3Visitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/gmoteserver/src/org/blinkenlights/jid3/util/ID3Visitor.java
+END
+ID3Subject.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/gmoteserver/src/org/blinkenlights/jid3/util/ID3Subject.java
+END
+ID3Visitable.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/gmoteserver/src/org/blinkenlights/jid3/util/ID3Visitable.java
+END
+ID3Observer.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/gmoteserver/src/org/blinkenlights/jid3/util/ID3Observer.java
+END
+ID3Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/gmoteserver/src/org/blinkenlights/jid3/util/ID3Util.java
+END

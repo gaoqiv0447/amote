@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8/trunk/gmoteserver/src/org/blinkenlights/jid3/io
+END
+FileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/8/trunk/gmoteserver/src/org/blinkenlights/jid3/io/FileSource.java
+END
+ID3DataInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/gmoteserver/src/org/blinkenlights/jid3/io/ID3DataInputStream.java
+END
+ID3DataOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/gmoteserver/src/org/blinkenlights/jid3/io/ID3DataOutputStream.java
+END
+IFileSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/8/trunk/gmoteserver/src/org/blinkenlights/jid3/io/IFileSource.java
+END
+TextEncoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/8/trunk/gmoteserver/src/org/blinkenlights/jid3/io/TextEncoding.java
+END

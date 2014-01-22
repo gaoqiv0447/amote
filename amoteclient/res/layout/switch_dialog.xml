@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<org.amote.client.panel.Panel
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:panel="http://schemas.android.com/apk/res/org.amote.client"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/leftPanel1"
+	android:layout_gravity="top"
+	android:gravity="center"
+	panel:animationDuration = "500"
+	panel:position="top"
+	panel:openedHandle="@drawable/top_switcher_expanded_background"
+	panel:closedHandle="@drawable/top_switcher_collapsed_background"><Button
+        android:id="@id/panelHandle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip" />
+
+    <LinearLayout
+        android:id="@id/panelContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawer_style"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="2dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:paddingTop="1dip" >
+
+        <ImageButton
+            android:id="@+id/capture_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/capture_button" />
+
+        <ImageButton
+            android:id="@+id/main_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_remote_nor" />
+
+        <ImageButton
+            android:id="@+id/touch_pad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/main_touch_nor" />
+
+        <ImageButton
+            android:id="@+id/game_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/main_game_nor" />
+    </LinearLayout>
+
+</org.amote.client.panel.Panel>

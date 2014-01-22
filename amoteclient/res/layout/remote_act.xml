@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_mode"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="68.0"
+        android:background="@drawable/new_all_background1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="13.0" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="44.0"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="5.0" />
+
+            <ImageButton
+                android:id="@+id/new_media_close"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="69.0"
+                android:background="@drawable/new_media_switch" />
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="173.0" />
+
+            <ImageButton
+                android:id="@+id/new_media_switch"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="69.0"
+                android:background="@drawable/new_mouse_key" />
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="4.0" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="11.0" />
+    </LinearLayout>
+
+    <LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="0.0dip"
+			android:layout_weight="400.0"
+			android:background="#014051"
+			android:orientation="horizontal" >
+        <View
+	        android:id="@+id/hrztl_left"
+	        android:layout_weight="0.0"
+	        android:layout_width="0.0dip"
+	        android:layout_height="fill_parent" />    
+        
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	android:layout_width="0.0dip"
+	        android:layout_weight="100.0"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" >
+            <View
+		        android:id="@+id/vtcl_top"
+		        android:layout_weight="0.0"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0.0dip" />
+            <LinearLayout
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0.0dip"
+		        android:layout_weight="100.0"
+		        android:orientation="vertical">  
+		        <View
+			        android:layout_weight="2.0" 
+			        android:layout_width="fill_parent"
+			        android:layout_height="0.0dip" />
+		        <LinearLayout
+					xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="fill_parent"
+					android:layout_height="0.0dip"
+					android:layout_weight="8.0"
+					android:orientation="horizontal" >
+
+					<ImageButton
+			            android:id="@+id/new_media_voldown"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="10.0" 
+			            android:background="@drawable/new_media_voldown" />
+					<View
+				        android:layout_weight="28.0" 
+				        android:layout_width="0.0dip"
+				        android:layout_height="fill_parent" />
+					<ImageButton
+			            android:id="@+id/new_media_volup"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="10.0" 
+			            android:background="@drawable/new_media_volup" />
+
+				</LinearLayout>
+
+                <LinearLayout
+					xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="fill_parent"
+					android:layout_height="0.0dip"
+					android:layout_weight="10.0"
+					android:orientation="horizontal" >
+					<View
+				        android:layout_weight="10.0" 
+				        android:layout_width="0.0dip"
+				        android:layout_height="fill_parent" />
+					<ImageButton
+			            android:id="@+id/new_media_up"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="20.0" 
+			            android:background="@drawable/new_media_up" />
+					<View
+				        android:layout_weight="10.0" 
+				        android:layout_width="0.0dip"
+				        android:layout_height="fill_parent" />
+				</LinearLayout>
+				<LinearLayout
+					xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="fill_parent"
+					android:layout_height="0.0dip"
+					android:layout_weight="20.0"
+					android:orientation="horizontal" >
+
+					<ImageButton
+			            android:id="@+id/new_media_left"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="10.0" 
+			            android:background="@drawable/new_media_left" />
+					<LinearLayout
+						xmlns:android="http://schemas.android.com/apk/res/android"
+						android:layout_width="0.0dip"
+						android:layout_height="fill_parent"
+						android:layout_weight="20.0"
+						android:orientation="horizontal" >
+						<View
+					        android:layout_weight="5.0" 
+					        android:layout_width="0.0dip"
+					        android:layout_height="fill_parent" />
+						<LinearLayout
+					        xmlns:android="http://schemas.android.com/apk/res/android"
+					        android:layout_width="0.0dip"
+					        android:layout_height="fill_parent"
+					        android:layout_weight="40.0"
+					        android:orientation="vertical"> 
+					        <View
+						        android:layout_weight="5.0" 
+						        android:layout_width="fill_parent"
+						        android:layout_height="0.0dip" />
+					        <ImageButton
+					            android:id="@+id/new_media_enter"
+					            android:layout_width="fill_parent"
+					            android:layout_height="0.0dip"
+								android:layout_weight="40.0" 
+					            android:background="@drawable/new_media_enter" /> <!-- here enter -->
+					        <View
+						        android:layout_weight="5.0" 
+						        android:layout_width="fill_parent"
+						        android:layout_height="0.0dip" />
+					    </LinearLayout>	
+						
+				        <View
+					        android:layout_weight="5.0" 
+					        android:layout_width="0.0dip"
+					        android:layout_height="fill_parent" />
+					</LinearLayout>	
+					
+					<ImageButton
+			            android:id="@+id/new_media_right"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="10.0" 
+			            android:background="@drawable/new_media_right" />
+
+				</LinearLayout>
+				<LinearLayout
+					xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="fill_parent"
+					android:layout_height="0.0dip"
+					android:layout_weight="10.0"
+					android:orientation="horizontal" >
+					<View
+				        android:layout_weight="10.0" 
+				        android:layout_width="0.0dip"
+				        android:layout_height="fill_parent" />
+					<ImageButton
+			            android:id="@+id/new_media_down"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="20.0" 
+			            android:background="@drawable/new_media_down" />
+					<View
+				        android:layout_weight="10.0" 
+				        android:layout_width="0.0dip"
+				        android:layout_height="fill_parent" />
+				</LinearLayout>
+                <View
+			        android:layout_weight="3.0" 
+			        android:layout_width="fill_parent"
+			        android:layout_height="0.0dip" />
+                <LinearLayout
+					xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="fill_parent"
+					android:layout_height="0.0dip"
+					android:layout_weight="8.0"
+					android:orientation="horizontal" >
+
+					<ImageButton
+			            android:id="@+id/new_media_home"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="20.0" 
+			            android:background="@drawable/new_media_next" />
+					<View
+				        android:layout_weight="5.0" 
+				        android:layout_width="0.0dip"
+				        android:layout_height="fill_parent" />
+					<ImageButton
+			            android:id="@+id/new_media_menu"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="20.0" 
+			            android:background="@drawable/new_media_prev" />
+					<View
+				        android:layout_weight="5.0" 
+				        android:layout_width="0.0dip"
+				        android:layout_height="fill_parent" />
+					<ImageButton
+			            android:id="@+id/new_media_back"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="20.0" 
+			            android:background="@drawable/new_media_play" />
+					<View
+				        android:layout_weight="5.0" 
+				        android:layout_width="0.0dip"
+				        android:layout_height="fill_parent" />
+					<ImageButton
+			            android:id="@+id/new_media_search"
+			            android:layout_width="0.0dip"
+			            android:layout_height="fill_parent"
+						android:layout_weight="20.0" 
+			            android:background="@drawable/new_media_stop" />
+
+				</LinearLayout>
+                <View
+			        android:layout_weight="2.0" 
+			        android:layout_width="fill_parent"
+			        android:layout_height="0.0dip" />
+		    </LinearLayout>    
+            <View
+		        android:id="@+id/vtcl_bottom"
+		        android:layout_weight="0.0" 
+		        android:layout_width="fill_parent"
+		        android:layout_height="0.0dip" />
+        </LinearLayout>    
+        <View
+        android:id="@+id/hrztl_right"
+        android:layout_weight="0.0" 
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip" />   
+    </LinearLayout>
+
+	<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="0.0dip"
+			android:layout_weight="60.0"
+			android:background="#000000"
+			android:orientation="horizontal" >
+
+			<!--
+			<View
+				android:layout_width="0.0dip"
+				android:layout_height="fill_parent"
+			android:layout_weight="5" /> 
+			-->
+			<ImageButton android:id="@+id/home_switch"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@drawable/back_home_switch" />
+			<!--
+			<View
+				android:layout_width="0.0dip"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.5" />
+			-->
+			<ImageButton android:id="@+id/main_control_switch"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@drawable/main_control_switch" />
+			<!--
+			<View
+				android:layout_width="0.0dip"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.5" />
+			-->
+			<ImageButton android:id="@+id/touch_pad_switch"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@drawable/touch_pad_switch" />
+			<!--
+			<View
+				android:layout_width="0.0dip"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.5" />
+			-->
+			<ImageButton android:id="@+id/game_control_switch"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="@drawable/game_control_switch" />
+			<!--
+			<View
+				android:layout_width="0.0dip"
+				android:layout_height="fill_parent"
+				android:layout_weight="5.0" />
+			-->
+	</LinearLayout>		
+		
+</LinearLayout>

@@ -1,0 +1,33 @@
+/**
+ * Copyright (C) 2009 Aisino Corporation Inc.
+ *
+ * No.18A, Xingshikou street, Haidian District,Beijing
+ * All rights reserved.
+ * 
+ * This software is the confidential and proprietary information of 
+ * Aisino Corporation Inc. ("Confidential Information"). You shall not
+ * disclose such Confidential Information and shall use it only in 
+ * accordance with the terms of the license agreement you entered into
+ * with Aisino.
+ */
+
+package com.aisino.server;
+
+import android.app.Application;
+import android.view.WindowManager;
+
+public class RemoteApplication extends Application {
+    /**
+     * 创建全局变量
+     * 全局变量一般都比较倾向于创建一个单独的数据类文件，并使用static静态变量
+     *
+     * 这里使用了在Application中添加数据的方法实现全局变量
+     * 注意在AndroidManifest.xml中的Application节点添加android:name=".MyApplication"属性
+     *
+     */
+    private WindowManager.LayoutParams wmParams=new WindowManager.LayoutParams();
+
+    public WindowManager.LayoutParams getMywmParams(){
+        return wmParams;
+    }
+}

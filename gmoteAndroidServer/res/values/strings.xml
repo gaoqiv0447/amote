@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">TV application started</string>
+    <string name="app_name">AmoteServer</string>
+    <string name="set_password">Setting password</string>
+    <string name="password">Password</string>
+    <string name="password_diff">"Password not same, please try again!"</string>
+    <string name="repassword">Confirm password</string>
+    <string name="ok_btn">OK</string>
+    <string name="hide_btn">Run in background</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="dialog_title">Exit</string>
+	<string name="dialog_message">Exit the application?</string>
+	<string name="notification_title">Run in background</string>
+	<string name="notification_message">TV notification</string>
+	<string name="notification_content">TV notification content</string>
+	<string name="no_network_message">Connect to network and try again!</string>
+	<string name="connect_fail_message">Failed to connect remote, the remote IP is：</string>
+	<string name="alert">"Password Tips"</string>
+	<string name="connect_success_message">Connected to remote, the remote IP is：</string>
+	<string name="auth_dialog_title"> Connect info</string>
+	<string name="ip_address">"TV IP address："</string>
+	<string name="tcp_port">"TCP port:"</string>
+	<string name="udp_port_title">"UDP port:"</string>
+	<string name="connected_ip_title">"Remote application info："</string>
+	<string name="client_force_exit">"Remote has exited"</string>
+	<!--menu info-->
+	<string name="menu_setting_title">Settings</string>
+	<string name="change_pwd_title"> Change password</string>
+	<string name="new_password_title"> Password</string>
+	<string name="confirm_password_title">Confirm Password</string>
+	<string name="password_error_info">Passwords are not same, try again.</string>
+	<!--menu info end-->
+	<!--preference file name-->
+	<string name="shared_preference_name">gmote_server</string>
+	<!--setting activity-->
+	<string name="setting_title">Settings</string>
+	<string name="setting_auto_start_title">start on boot</string>
+	<string name="setting_auto_start_msg">Is start on boot?</string>
+	<string name="setting_auto_start_key">autostart</string>
+	<string name="setting_mouse_style_title">Mouse style</string>
+	<string name="setting_mouse_style_key">mousestyle</string>
+	<string name="settting_plugin_category">additionnal function</string>
+	<string name="setting_plugin_manager_key">plugin_manager_key</string>
+	<string name="setting_install_category_key">plugin_install_category</string>
+	<string name="setting_uninstall_category_key">plugin_uninstall_category</string>
+	<string name="settting_plugin_manager">Plugin Manager</string>
+	<string name="settting_plugin_manager_summary">install or uninstall plugin</string>
+	<string name="setting_plugin_browse_key">browse_plugin</string>
+	<string name="setting_plugin_sensor_key">sensor_plugin</string>
+	<string name="settting_browse_title">Browse Plugin</string>
+	<string name="settting_browse_summary">Browse Plugin makes it sure that you can scan TV files through your pad.</string>
+	<string name="settting_sensor_title">Sensor Plugin</string>
+	<string name="settting_sensor_summary">Sensor Plugin makes it sure that you can play sensor-game in TV.</string>
+	<string name="setting_plugin_installed_title">installed plugin</string>
+	<string name="setting_plugin_uninstalled_title">uninstalled plugin</string>
+	<string name="setting_plugin_install_dialog_title">install plugin</string>
+	<string name="setting_plugin_uninstall_dialog_title">uninstall plugin</string>
+	<string name="setting_browse_plugin_install_dialog_msg">Browse Plugin makes it sure that you can scan TV files through your pad.\nPlease restart your device after installing.</string>
+	<string name="setting_sensor_plugin_install_dialog_msg">Sensor Plugin makes it sure that you can play sensor-game in TV.\nPlease restart your device after installing.</string>
+	<string name="setting_plugin_uninstall_dialog_msg">Are you sure uninstall this plugin?</string>
+	<string name="qrnote">The QR Code of\n Client APK.</string>
+	<!--setting activity end-->
+
+	<!-- input method -->
+	<string name="im_tips">"Please your phone or pad remote to input, or switch to other input method to input."</string>
+</resources>

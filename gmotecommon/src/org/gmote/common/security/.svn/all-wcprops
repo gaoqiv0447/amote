@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/110/trunk/gmotecommon/src/org/gmote/common/security
+END
+IncompatibleClientException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/110/trunk/gmotecommon/src/org/gmote/common/security/IncompatibleClientException.java
+END
+AuthenticationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/110/trunk/gmotecommon/src/org/gmote/common/security/AuthenticationHandler.java
+END
+AuthenticationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/110/trunk/gmotecommon/src/org/gmote/common/security/AuthenticationException.java
+END
